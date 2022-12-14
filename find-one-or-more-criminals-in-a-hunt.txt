@@ -1,0 +1,14 @@
+let firstString = "C";
+let secondString = "CC";
+let thirdString = "P1P5P4CCCcP2P6P3";
+let forthString = "P6P2P7P4P5CCCCCP3P1";
+let fifthString = "";
+let sixthString = "P1P2P3";
+let seventhString = "P2P1P5P4CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCP3";
+
+
+
+
+let reCriminals = /C+/g;
+let result = firstString.match(reCriminals);
+console.log(result);
