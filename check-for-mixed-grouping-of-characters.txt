@@ -1,0 +1,6 @@
+let myString = "Eleanor Roosevelt";
+// let myRegex = /(eleanor|Franklin) .*roosevelt/i;
+let myRegex = /(Franklin|Eleanor) ((\w\.|\*) )?Roosevelt/;
+
+let result = myRegex.test(myString);
+console.log(result);
