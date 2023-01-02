@@ -1,0 +1,9 @@
+let hello = "   Hello, World!  ";
+let wsRegex = /^\s+|\s+$/g;
+let result = hello.replace(wsRegex,"");
+console.log(result);
+
+// ooks for one or more blankspaces at the beginning of a string
+// acts as an “or”
+// looks for one or more blankspaces at the end of a string
+// include the g flag so that the one at the beginning and at the end will be selected.
